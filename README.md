@@ -5,7 +5,7 @@
   </a>
 </p>
 
-> Projet effectué afin de m’entrainer sur le framework react, il consiste en une todo-list classique.
+> Projet effectué afin de m’entrainer sur le framework react et firebase, il consiste en une todo-list classique.
 
 ### ✨ [Essayez par vous-même](http://react-todo.simon-projets.com)
 

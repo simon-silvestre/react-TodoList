@@ -23,7 +23,7 @@
         }
 
         button {
-            background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%);
+            background-color: #8ac4eb;
             margin-left: 10px;
             padding: 15px 25px;
             text-align: center;
@@ -40,9 +40,7 @@
 
 
             &:hover {
-                background-position: right center; /* change the direction of the change here */
-                color: #fff;
-                text-decoration: none;
+                background-color: #63a8d7;
             }
         }
     }

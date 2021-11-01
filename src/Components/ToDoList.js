@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import ToDo from './ToDo';
 
 function ToDoList({ toDos, remove, checked }) {
@@ -10,6 +10,7 @@ function ToDoList({ toDos, remove, checked }) {
                 text={toDo.text}
                 remove={() => remove(index)}
                 checked={() => checked(index)}
+                isChecked={toDo.checked}
             ></ToDo>
         )
     })
