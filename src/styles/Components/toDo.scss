@@ -1,0 +1,25 @@
+.ToDo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+    padding: 20px 50px;
+    border-radius: 8px;
+    background-color: #fff;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+
+    .task {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin-left: 10px;
+        }
+    }
+    span {
+        cursor: pointer;
+    }
+}
